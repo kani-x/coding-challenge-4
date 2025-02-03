@@ -26,3 +26,13 @@ while (stock > 0) {
     console.log(`Stock remaining: ${stock}`);
     stock--;
 }
+
+//Task 4: Customer Survey (Do...While Loop)
+
+let responses = 0;
+
+do {
+    console.log(`Response #${responses + 1}`);
+    responses++;
+} while (responses < 3);
+
