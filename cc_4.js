@@ -55,3 +55,9 @@ for (let product of products) {
     console.log(`Product: ${product}`);
 }
 
+// Task 7: Order Processing (forEach Method)
+let orders = [101, 102, 103];
+
+orders.forEach(order => {
+    console.log(`Order ID: ${order}`);
+});
