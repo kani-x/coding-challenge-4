@@ -36,3 +36,15 @@ do {
     responses++;
 } while (responses < 3);
 
+// Task 5: Employee Information (For...In Loop)
+
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+};
+
+for (let property in employee) {
+    console.log(`${property}: ${employee[property]}`);
+}
+
